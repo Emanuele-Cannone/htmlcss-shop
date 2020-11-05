@@ -2,21 +2,24 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-
-
 }
 
-.tablet{
-  position: absolute;
-  /* width: 200px;
-  height: 200px; */
-  /* background-color: green; */
+.product{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
 }
 
-.discount{
+.product .discount{
   background-color: green;
   position: absolute;
   top: 0;
   right: 0;
+}
 
+.product .heart{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
 }
