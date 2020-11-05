@@ -43,6 +43,6 @@
   margin-top: 40px;
 }
 
-.discount.povery{
-  background-color: red;
+.product:nth-child(even) .discount{
+  background-color:red;
 }
