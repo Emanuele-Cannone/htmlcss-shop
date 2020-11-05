@@ -30,9 +30,17 @@
   display: block;
 }
 
-.line{
+.product:hover{
+  cursor: pointer;
+}
+
+.line {
   margin-top: 20px;
   margin-left: 15px;
+}
+
+.line:last-child{
+  margin-top: 40px;
 }
 
 .discount.povery{
