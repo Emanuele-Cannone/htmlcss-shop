@@ -29,3 +29,12 @@
 .product:hover .heart{
   display: block;
 }
+
+.line{
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.discount.povery{
+  background-color: red;
+}
