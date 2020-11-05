@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+
+}
+
+.tablet{
+  position: absolute;
+  /* width: 200px;
+  height: 200px; */
+  /* background-color: green; */
+}
+
+.discount{
+  background-color: green;
+  position: absolute;
+  top: 0;
+  right: 0;
+
+}
