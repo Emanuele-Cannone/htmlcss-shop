@@ -6,20 +6,26 @@
 
 .product{
   position: relative;
-  width: 200px;
-  height: 200px;
-  background-color: yellow;
+  display: inline-block;
 }
 
-.product .discount{
-  background-color: green;
+.discount{
   position: absolute;
   top: 0;
   right: 0;
+  background-color: green;
 }
 
-.product .heart{
+.heart{
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
+  width: 100%;
   text-align: center;
+  font-size: 30px;
+  color: red;
+  display: none;
+}
+
+.product:hover .heart{
+  display: block;
 }
